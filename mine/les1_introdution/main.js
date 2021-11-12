@@ -44,7 +44,7 @@ let avariable = 'test';
 const A_CONST = 'test';
 
 // function
-function afuncion(aParameter) {
+function afuncion(aParameter){
     // do something
     return aParameter * 2;
 }

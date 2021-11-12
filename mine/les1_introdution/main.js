@@ -4,7 +4,8 @@ const SCREAMING_CASE = 'test';
 // logging to console
 console.log(camelCase);
 
-// documentatie
+// documentation
+
 // https://developper.mozilla.org/en-US/
 
 // primitives data types
@@ -45,16 +46,14 @@ const A_CONST = 'test';
 // function
 function afuncion(aParameter) {
     // do something
-    let double = aParameter * 2;
-
-    return double;
+    return aParameter * 2;
 }
-let terurnVal = aFunction(2);
+let returnVal = aFunction(2);
 console.log(returnVal);
 
-function aFunction(naam) {
-    let aNaam = naam;
-    return aNaam;
+function aFunction(name){
+    let aNaam = name;
+    return name;
 }
 let returnVal = 'willy';
 console.log(returnVal);
@@ -107,17 +106,17 @@ console.log(someMoreString);
 
 // template literals
 
-let aTemplateLiteral = 'Test 123
+let aTemplateLiteral = 'Test 123';
 
-test 456
-TEST 789
+test 456;
+test 789;
 
 let templateString = 'template';
 let helloTemplate = `hello $(templatrString)`;
 
 function helloNamePrompt(name) {
     let name = prompt('What is your first name ?');
-    alert('hello + name')
+    alert('hello + name');
 }
 
 function capitalize(text) {
@@ -153,8 +152,12 @@ function lastFirst(name) {
 }
 
 
-function lastFirstLast(name) {
+function lastFirstLast(word) {
+    let firstLetter = word[0];
+    let lastLetter = word[word.length - 1];
+    let otherLetters = word.substring(1, word.length - 1);
 
+    return lastLetter + otherLetters + firstLetter;
 }
 
 

@@ -114,51 +114,51 @@
 //let templateString = 'template';
 //let helloTemplate = `hello $(templatrString)`;
 
-function helloNamePrompt(name) {
-let name = prompt('What is your first name ?');
-alert('hello + name');
-}
+//function helloNamePrompt(name) {
+//let name = prompt('What is your first name ?');
+//alert('hello + name');
+//}
 
-function capitalize(text) {
-let firstLetter = text[0] ;
-let firstLetterUpper = firstLetter.UpperCase();
-let otherLetter = test.substring(i);
-let otherLetterLower = otherLetterLower.toLowerCase(i);
+//function capitalize(text) {
+//let firstLetter = text[0] ;
+//let firstLetterUpper = firstLetter.UpperCase();
+//let otherLetter = test.substring(i);
+//let otherLetterLower = otherLetterLower.toLowerCase(i);
 
-return firstLetterUpper + otherLetterLower;
-}
+//return firstLetterUpper + otherLetterLower;
+//}
 
-function helloFullNamePromptCapitalize(name1) {
-let firstName = prompt('What is your first name ?');
-let firstNameCapitalize = capitalize(firstName);
-let secondName = prompt('What is your second name ?');
-let secondNameCapitalize = capitalize(secondName)
-alert('hello + firstNameCapitalize + ' ' + secondNameCapitalize')
+//function helloFullNamePromptCapitalize(name1) {
+//let firstName = prompt('What is your first name ?');
+//let firstNameCapitalize = capitalize(firstName);
+// let secondName = prompt('What is your second name ?');
+//let secondNameCapitalize = capitalize(secondName)
+//alert('hello + firstNameCapitalize + ' ' + secondNameCapitalize')
 
-}
+//}
 
 function firstLast(name) {
-let firstName = [0];
-let firstNameUpper = firstName.UpperCase();
-let otherLetter = test.substring(i);
-return otherLetter + firstLetter;
+    let firstName = [0];
+    let firstNameUpper = firstName.UpperCase();
+    let otherLetter = test.substring(i);
+    return otherLetter + firstLetter;
 }
 
 function lastFirst(name) {
-let lastFirst = word[word.lenght - 1];
-let ohterLetter = word.substring((0, word.lenght - 1))
-return lastLetter + orherLetter;
+    let lastFirst = word[word.lenght - 1];
+    let ohterLetter = word.substring((0, word.lenght - 1));
+    return lastLetter + orherLetter;
 }
 
 function lastFirstLast(word) {
-let firstLetter = word[0];
-let lastLetter = word[word.length - 1];
-let otherLetters = word.substring(1, word.length - 1);
+    let firstLetter = word[0];
+    let lastLetter = word[word.length - 1];
+    let otherLetters = word.substring(1, word.length - 1);
 
-return lastLetter + otherLetters + firstLetter;
+    return lastLetter + otherLetters + firstLetter;
 }
 
 function ellipser(sentence, lenght) {
-let shortSentence = sentence.substring(0, lenght);
-return shortSentence + '...';
+    let shortSentence = sentence.substring(0, lenght);
+    return shortSentence + '...';
 }

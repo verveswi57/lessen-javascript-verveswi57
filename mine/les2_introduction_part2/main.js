@@ -391,7 +391,6 @@ console.log(countWords(' Hier ik  ook nog    een paar.')); // 6
 /* return {string}
 */
 
-
 function firstLetterOfEachWord(text) {
     let letters = '';
 
@@ -420,21 +419,22 @@ console.log(
     firstLetterOfEachWord(
         ' Roasted   melon  can be made aromatic by decorating with chicory sauce.',
     ),
+);
 
-    /**
-     * Generate random number between 0 and 10
-     * prompt for number
-     * check if number is valid (between 0 and 10)
-     *      > if not ask for new number
-     * if number is too high
-     *      > prompt for new number (with message: 'Too high, try again')
-     * if number is too low
-     *      > prompt for new number (with message: 'Too low, try again')
-     * check if number is correct
-     *      > player wins: alert 'You win, you guessed [x] times'
-     *      > confirm 'Want to try again'
-     */
-    function guessingGame() {}
+/**
+ * Generate random number between 0 and 10
+ * prompt for number
+ * check if number is valid (between 0 and 10)
+ *      > if not ask for new number
+ * if number is too high
+ *      > prompt for new number (with message: 'Too high, try again')
+ * if number is too low
+ *      > prompt for new number (with message: 'Too low, try again')
+ * check if number is correct
+ *      > player wins: alert 'You win, you guessed [x] times'
+ *      > confirm 'Want to try again'
+ */
+function guessingGame() {}
 
 /**
  * Prompt for rock, paper of scissors

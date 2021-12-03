@@ -62,9 +62,7 @@ let someArray =
         ' ',
     );
 
-let someOtherArray =
-
-    console.log(someArray);
+let someOtherArray = console.log(someArray);
 console.log(someArray.slice(0, 3));
 console.log(someArray.splice(2, 2, 'like', 'shit'));
 console.log(someArray);

@@ -9,8 +9,6 @@ console.log(document.body.firstElementChild);
 console.log(document.body.lastChild);
 console.log(document.body.lastElementChild);
 
-let parOne = document.getElementById('par-one');
-
 console.log(parOne.previousElementSibling);
 console.log(parOne.previousSibling);
 
@@ -21,7 +19,9 @@ console.log(parOne.parentNode);
 console.log(parOne.parentElement);
 
 console.log(document.querySelector('h1'));
-console.log(document.querySelectorAll('li'));
+
+;
+
 
 parOne.style.backgroundColor = 'goldenrod';
 

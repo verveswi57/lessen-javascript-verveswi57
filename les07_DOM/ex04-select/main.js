@@ -7,6 +7,7 @@
 function genTable(container, content) {
 
 let aContainer = document.getElementById('container');
+
     if (container !== true) {
         let container= document.getElementById('container');
         let numberInput = document.getElementById('number-input');
@@ -27,7 +28,6 @@ let aContainer = document.getElementById('container');
         }
         newThead.append(newTheadRow);
         newTable.append(newThead);
-
         container.append(newTable);
     }
 }
@@ -70,5 +70,5 @@ let data = [
         },
     ];
 
-genTable(aContainer[0], data);
+genTable(aContainer, data);
 
